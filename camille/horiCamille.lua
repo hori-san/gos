@@ -19,7 +19,7 @@
 
 	local function DownloadFile(url, dir)
 		DownloadFileAsync(url, dir, function() end)
-		print("Updating | Weeknd.lua")
+		print("Updating | "..Weeknd)
 		repeat until FileExist(dir)
 	end
 
